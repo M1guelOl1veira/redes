@@ -24,5 +24,5 @@ RUN chown user:user -R /home/user/.ssh && \
 
 EXPOSE 22
 
-#Starta o ssh daemon
+#Starta o ssh da
 CMD ["/usr/sbin/sshd", "-D"]

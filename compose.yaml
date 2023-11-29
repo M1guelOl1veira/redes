@@ -2,7 +2,7 @@ services:
   ubuntu:
     build: .
     ports:
-      - 8000:22
+      - 8001:22
   mongodb:
     image: mongo
     ports:
